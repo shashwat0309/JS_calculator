@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaSctipt Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <form name="calculatorForm">
+            <div class="resultscreen">
+                <div class="heading">Calculator</div>
+                <input type="text" name="evalresult"/>
+            </div>
+            <div class="buttons">
+                <div class="line">
+                    <input type="button" name="btn7" value="7" onClick="valuecal(btn7.value)"/>
+                    <input type="button" name="btn8" value="8" onClick="valuecal(btn8.value)"/>
+                    <input type="button" name="btn9" value="9" onClick="valuecal(btn9.value)"/>
+                    <input type="button" name="btndivision" value="/" onClick="valuecal(btndivision.value)"/>
+                </div>
+                
+                <div class="line">
+                    <input type="button" name="btn4" value="4" onClick="valuecal(btn4.value)"/>
+                    <input type="button" name="btn5" value="5" onClick="valuecal(btn5.value)"/>
+                    <input type="button" name="btn6" value="6" onClick="valuecal(btn6.value)"/>
+                    <input type="button" name="btnmultiply" value="*" onClick="valuecal(btnmultiply.value)"/>
+                </div>
+                
+                <div class="line">
+                    <input type="button" name="btn1" value="1" onClick="valuecal(btn1.value)"/>
+                    <input type="button" name="btn2" value="2" onClick="valuecal(btn2.value)"/>
+                    <input type="button" name="btn3" value="3" onClick="valuecal(btn3.value)"/>
+                    <input type="button" name="btnsubtract" value="-" onClick="valuecal(btnsubtract.value)"/>
+                </div>
+                
+                <div class="line">
+                    <input type="button" name="btn0" value="0" onClick="valuecal(btn0.value)"/>
+                    <input type="button" name="btnDot" value="." onClick="valuecal(btnDot.value)"/>
+                    <input type="button" name="btnAddition" value="+" onClick="valuecal(btnAddition.value)"/>
+                    <input type="button" name="result" value="=" onClick="evalresult.value=eval(evalresult.value)"/>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
