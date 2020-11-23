@@ -52,11 +52,15 @@ input[type='button'] {
     outline: none;
     background: #2d2d2d;
 }
-input[type='button'][value='0'] {
-    border-bottom-left-radius: 5px;
-}
+
 input[type='button'][value='='] {
     background: #ec2629;
     color: #ffffff;
+}
+input[type='button'][value='CLEAR'] {
+    background: #93abd3;
+    color: #ffffff;
+	border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+	width: 300px;
 }
